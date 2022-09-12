@@ -16,9 +16,12 @@ h1 {
 .titulo {	
     border: 1.5px solid blueviolet;
     border-radius: 2.75px;
-    display: flex;
-    
 }
- .titulo img {
-    width: 100px;
- }
+
+.container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border: 2px solid red;
+    background-color: violet;
+}
