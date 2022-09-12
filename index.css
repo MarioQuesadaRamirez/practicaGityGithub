@@ -10,6 +10,15 @@ p {
 }
 
 h1 {
+    
+}
+
+.titulo {	
     border: 1.5px solid blueviolet;
     border-radius: 2.75px;
+    display: flex;
+    
 }
+ .titulo img {
+    width: 100px;
+ }
