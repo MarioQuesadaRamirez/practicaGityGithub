@@ -20,8 +20,17 @@ h1 {
 
 .container {
     display: flex;
+<<<<<<< HEAD
     justify-content: end;
     align-items: center;
     border: 2px solid red;
     background-color: violet;
 }
+=======
+    
+    
+}
+ .titulo img {
+    width: 80px;
+ }
+>>>>>>> b06b05983195b7e79aee23427884e836f28f0ff4
