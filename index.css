@@ -1,32 +1,64 @@
 p {
-    color: aquamarine;
-    font-size: large;
-}
+    color: grey;
+    margin-left: 10px;
 
-.lista {
-    background-color: blanchedalmond;
-    border: 1.5px;
-    border-radius: 0.75px;
 }
 
 h1 {
-    
+    color: rgb(102, 102, 185);
+    font-weight: bolder;
+    margin-left: 10px;
+
 }
 
-.titulo {	
-    border: 1.5px solid blueviolet;
-    border-radius: 2.75px;
+h2 {
+    color: rgb(39, 39, 93);
+    font-weight: bolder;
+    margin-left: 10px;
+
+}
+
+header {
+    background-color: rgb(208, 148, 213);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleHeader {	
+    width: 50%;
+}
+
+.imageLogo {
+    width: 50%;
     display: flex;
 }
 
-.container {
+ .imageLogo img {
+    margin-left: 10px;
+    width: 2.5rem;
+ }
+.hola {
+    margin-left: 20px;
+}
+ .lista {
+    background-color: rgb(233, 191, 207);
+    border: 1.5px;
+    border-radius: 0.75px;
+    width: 30%;
+    margin-left: 30px;
+
+}
+
+.lorem {
+    width: 95%;
+    margin-left: 10px;
+}
+
+ .container {
     display: flex;
     justify-content: end;
     align-items: center;
-    border: 2px solid red;
     background-color: violet;
     
 }
- .titulo img {
-    width: 80px;
- }
